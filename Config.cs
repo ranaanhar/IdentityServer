@@ -14,7 +14,15 @@ public static class Config
         new IdentityResource[]
         { 
             new IdentityResources.OpenId(),
-            new IdentityResources.Profile()
+            new IdentityResources.Profile(),
+            new IdentityResource(){
+                Name = "verification",
+                UserClaims=new List<string>
+                {
+                    JwtClaimTypes.Email,
+                    JwtClaimTypes.EmailVerified
+                }
+            }
         };
 
     
@@ -46,6 +54,7 @@ public static class Config
                     AllowedScopes={
                          IdentityServerConstants.StandardScopes.OpenId,
                          IdentityServerConstants.StandardScopes.Profile,
+                         "verification"
                     },
 
                     // where to redirect to after login
