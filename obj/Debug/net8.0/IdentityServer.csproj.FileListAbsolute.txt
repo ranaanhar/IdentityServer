@@ -47,3 +47,7 @@
 /home/rana.anhar/source/repo/quickstart/src/IdentityServer/obj/Debug/net8.0/IdentityServer.pdb
 /home/rana.anhar/source/repo/quickstart/src/IdentityServer/obj/Debug/net8.0/IdentityServer.genruntimeconfig.cache
 /home/rana.anhar/source/repo/quickstart/src/IdentityServer/obj/Debug/net8.0/ref/IdentityServer.dll
+/home/rana.anhar/source/repo/quickstart/src/IdentityServer/bin/Debug/net8.0/keys/is-signing-key-0C389B3FC3C2037285232752F50243EF.json
+/home/rana.anhar/source/repo/quickstart/src/IdentityServer/bin/Debug/net8.0/IdentityServer.staticwebassets.runtime.json
+/home/rana.anhar/source/repo/quickstart/src/IdentityServer/obj/Debug/net8.0/IdentityServer.RazorAssemblyInfo.cache
+/home/rana.anhar/source/repo/quickstart/src/IdentityServer/obj/Debug/net8.0/IdentityServer.RazorAssemblyInfo.cs
