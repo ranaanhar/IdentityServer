@@ -9,6 +9,7 @@
       "IdentityServer/1.0.0": {
         "dependencies": {
           "Duende.IdentityServer": "7.0.4",
+          "Microsoft.AspNetCore.Authentication.Google": "8.0.6",
           "Serilog.AspNetCore": "8.0.0"
         },
         "runtime": {
@@ -44,6 +45,14 @@
           "lib/net6.0/IdentityModel.dll": {
             "assemblyVersion": "6.2.0.0",
             "fileVersion": "6.2.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.6": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "8.0.6.0",
+            "fileVersion": "8.0.624.26909"
           }
         }
       },
@@ -358,6 +367,13 @@
       "sha512": "sha512-4AXZ6Tp+DNwrSSeBziiX/231i8ZpD77A9nEMyc68gLSCWG0kgWsIBeFquYcBebiIPkfB7GEXzCYuuLeR1QZJIQ==",
       "path": "identitymodel/6.2.0",
       "hashPath": "identitymodel.6.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOMroouD9EiSTduJYtN6PnqaQpbscr+3f8osFg/mGW5L6Cg8Igv9P93NLHqyBYvMilXEufgx5kK/5naxnw9VpA==",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.6",
+      "hashPath": "microsoft.aspnetcore.authentication.google.8.0.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/8.0.3": {
       "type": "package",

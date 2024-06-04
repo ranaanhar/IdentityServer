@@ -51,3 +51,4 @@
 /home/rana.anhar/source/repo/quickstart/src/IdentityServer/bin/Debug/net8.0/IdentityServer.staticwebassets.runtime.json
 /home/rana.anhar/source/repo/quickstart/src/IdentityServer/obj/Debug/net8.0/IdentityServer.RazorAssemblyInfo.cache
 /home/rana.anhar/source/repo/quickstart/src/IdentityServer/obj/Debug/net8.0/IdentityServer.RazorAssemblyInfo.cs
+/home/rana.anhar/source/repo/quickstart/src/IdentityServer/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.Google.dll

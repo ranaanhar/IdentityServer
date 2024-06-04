@@ -1,3 +1,4 @@
+using Duende.IdentityServer;
 using Serilog;
 
 namespace IdentityServer;
@@ -8,6 +9,32 @@ internal static class HostingExtensions
     {
         // uncomment if you want to add a UI
         builder.Services.AddRazorPages();
+        builder.Services.AddAuthentication().AddGoogle("Google",options=>{
+            options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+
+            options.ClientId=builder.Configuration["Authentication:Google:ClientId"]!;
+            options.ClientSecret=builder.Configuration["Authentication:Google:ClientSecret"]!;
+        });
+        
+        //  Adding an additional OpenID Connect-based external provider
+        // .AddOpenIdConnect("oidc", "Demo IdentityServer", options =>
+        // {
+        //     options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+        //     options.SignOutScheme = IdentityServerConstants.SignoutScheme;
+        //     options.SaveTokens = true;
+
+        //     options.Authority = "https://demo.duendesoftware.com";
+        //     options.ClientId = "interactive.confidential";
+        //     options.ClientSecret = "secret";
+        //     options.ResponseType = "code";
+
+        //     options.TokenValidationParameters = new TokenValidationParameters
+        //     {
+        //         NameClaimType = "name",
+        //         RoleClaimType = "role"
+        //     };
+        // }); 
+        
 
         builder.Services.AddIdentityServer(options =>
             {

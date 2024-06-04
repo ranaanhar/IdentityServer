@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yWOznedGqmKbwFOagKRRb5yptEzjCwMTuvqDVryOstrSkN8UVmSA57rcxzWh2P+BBkSDJ/+J7FbRSoYMbZ26nQ==",
+  "dgSpecHash": "cBtTIVKuFWlf6NgH1qLa70SkxeDRVj9BTk2xyaSk+Xvcx161KS+XMKzhcuFh1SsvjseXJHOTbdBdl4QfDhdV8g==",
   "success": true,
   "projectFilePath": "/home/rana.anhar/source/repo/quickstart/src/IdentityServer/IdentityServer.csproj",
   "expectedPackageFiles": [
     "/home/rana.anhar/.nuget/packages/duende.identityserver/7.0.4/duende.identityserver.7.0.4.nupkg.sha512",
     "/home/rana.anhar/.nuget/packages/duende.identityserver.storage/7.0.4/duende.identityserver.storage.7.0.4.nupkg.sha512",
     "/home/rana.anhar/.nuget/packages/identitymodel/6.2.0/identitymodel.6.2.0.nupkg.sha512",
+    "/home/rana.anhar/.nuget/packages/microsoft.aspnetcore.authentication.google/8.0.6/microsoft.aspnetcore.authentication.google.8.0.6.nupkg.sha512",
     "/home/rana.anhar/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/8.0.3/microsoft.aspnetcore.authentication.openidconnect.8.0.3.nupkg.sha512",
     "/home/rana.anhar/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/8.0.3/microsoft.aspnetcore.dataprotection.abstractions.8.0.3.nupkg.sha512",
     "/home/rana.anhar/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
