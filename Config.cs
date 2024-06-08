@@ -47,10 +47,14 @@ public static class Config
                     ClientSecrets={new Secret("secret".Sha256())},
                      AllowedScopes={"api1"},
                      AllowedGrantTypes=GrantTypes.ClientCredentials},
+
+
+                     
                 new Client{
                     ClientId="web",
                     ClientSecrets={new Secret("secret".Sha256())},
                     AllowedGrantTypes=GrantTypes.Code,
+                    AllowOfflineAccess = true,
                     AllowedScopes={
                          IdentityServerConstants.StandardScopes.OpenId,
                          IdentityServerConstants.StandardScopes.Profile,
